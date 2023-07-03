@@ -19,7 +19,7 @@ def setup():
 
 def test_home_page_title(setup):
     driver = setup
-    assert driver.title == "Cricbuzz - Live Cricket Scores, Schedule, News, Archives, Series and may more"
+    assert driver.title == "Cricbuzz - Live Cricket Scores, Schedule, News, Archives, Series"
 
 def test_search_bar(setup):
     driver = setup
