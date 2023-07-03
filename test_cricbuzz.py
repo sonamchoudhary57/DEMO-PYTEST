@@ -24,7 +24,7 @@ def test_home_page_title(setup):
 def test_search_bar(setup):
     driver = setup
     search_input = driver.find_element_by_id("search-query")
-    search_input.send_keys("India vs Australia")
+    search_input.send_keys("India vs England")
     search_input.submit()
 
     # Add more assertions or verifications related to the search functionality
